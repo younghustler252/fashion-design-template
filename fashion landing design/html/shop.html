@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my design</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ----------HERO SECTION/ FIRST----------- -->
+    <nav class="main-nav" style="background-color: black;">
+            <ul class="nav-left"> 
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <div class="logo">
+                <h2>lo<span style="color: blue;">go</span></h2>
+            </div>
+            <ul class="nav-right">
+                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                <li><a href="#"><i class="fas fa-search"></i></a></li>
+                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+
+    <!-- Shop Hero -->
+    <section class="shop-hero">
+        <h1>Discover the Latest Styles</h1>
+        <p>Elevate your wardrobe with our curated collection</p>
+    </section>
+    <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="men">Men</button>
+        <button class="filter-btn" data-filter="women">Women</button>
+        <button class="filter-btn" data-filter="Accessories">Accessories</button>
+    </div>
+    
+    <!-- Product Grid -->
+    <section class="product-grid">
+
+        <!-- -----men---------- -->
+        <div class="product-card" data-category="men">
+            <img src="../assets/man-standing-profile-smiling.jpg" alt="Product 1"/>
+            <h3>Classic Tee – Men</h3>
+            <p>$35</p>
+            <a href="#" class="buy-btn">View Details</a>
+        </div>
+        <div class="product-card" data-category="men">
+            <img src="../assets/men-fashion.jpg" alt="Product 3"/>
+            <h3>Everyday Denim – Men</h3>
+            <p>$54</p>
+            <a href="#" class="buy-btn">View Details</a>
+        </div>
+         <div class="product-card" data-category="men">
+            <img src="../assets/automn-7557374_640.jpg" alt="Product 4"/>
+            <h3>Casual Top – men</h3>
+            <p>$42</p>
+            <a href="#" class="buy-btn">View Details</a>
+        </div>
+        <div class="product-card" data-category="men">
+            <img src="../assets/man-smiling-with-arms-crossed.jpg" alt="Product 4"/>
+            <h3>Casual Top – men</h3>
+            <p>$42</p>
+            <a href="#" class="buy-btn">View Details</a>
+        </div>
+
+
+        <!-- -----women---------- -->
+
+        <div class="product-card" data-category="women">
+            <img src="../assets/girl-6598198_640.jpg" alt="Product 2"/>
+            <h3>Elegant Dress – Women</h3>
+            <p>$68</p>
+            <a href="#" class="buy-btn">View Details</a>
+        </div>
+        <div class="product-card" data-category="women">
+            <img src="../assets/young-woman-with-blank-shirt-full-shot.jpg" alt="Product 4"/>
+            <h3>Casual Top – Women</h3>
+            <p>$42</p>
+            <a href="#" class="buy-btn">View Details</a>
+        </div>
+         <div class="product-card" data-category="women">
+            <img src="../assets/woman-wearing-blank-shirt-full-shot.jpg" alt="Product 4"/>
+            <h3>Casual Top – Women</h3>
+            <p>$42</p>
+            <a href="#" class="buy-btn">View Details</a>
+        </div>
+        
+         <div class="product-card" data-category="women">
+            <img src="../assets/elegant-young-businesswoman-posing.jpg" alt="Product 4"/>
+            <h3>Casual Top – Women</h3>
+            <p>$42</p>
+            <a href="#" class="buy-btn">View Details</a>
+        </div>
+
+
+        <!-- -------accesories------------ -->
+         
+         <div class="product-card" data-category="Accessories">
+            <img src="assets/item4.jpg" alt="Product 4"/>
+            <h3>Casual Top – Accessories<h3>
+            <p>$42</p>
+            <a href="#" class="buy-btn">View Details</a>
+        </div>
+    </section>
+        
+         
+        
+    <!-- -----------------FOOTER SECTION-------------- -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <p>
+                  We're redefining fashion with timeless, confident styles.
+                  Quality meets minimalism — for every body, every day.
+                </p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></l>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Younghustler. All rights reserved.</p>
+        </div>
+            
+    </footer>
+      
+    <script src="../js/shop.js"></script>  
+    <script src="../js/scroll.js"></script>    
+</body>
+</html> 
